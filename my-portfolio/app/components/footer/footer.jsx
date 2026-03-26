@@ -35,6 +35,7 @@ export default function Footer() {
                 <input placeholder='Name' type='text'></input>
                 <input placeholder='Email' type='text'></input>
                 <textarea placeholder='Message...'></textarea>
+                <button>Send</button>
             </form>
          </div>
 
