@@ -1,0 +1,59 @@
+
+.project-section {
+   margin: 20px 100px;
+}
+
+.project-header {
+    margin-bottom: 50px;
+}
+
+.project-header h1 {
+    font-size: 4rem;
+    font-family: var(--navFooter-font);
+    color: var(--main-font-color);
+}
+
+.project-header p {
+    font-family: var(--subtext);
+    font-size: 1.3rem;
+    color: #DEDAF4;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #DEDAF4;
+    padding: 50px 20px;
+}
+
+.project-info {
+    width: 75%;
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease;
+}
+.project-info h1 {
+   font-size: 2rem;
+}
+
+.project-info:hover {
+    transform: translateY(-3px);
+    color: #cbc2fd;
+}
+
+.project-info a:hover {
+    color: #cbc2fd;
+}
+
+.project-stack {
+    margin-right: 50px;
+    display: flex;
+}
+
+.stack-div {
+    background-color: #DEDAF4;
+    padding: 10px;
+    margin-left: 10px;
+}
