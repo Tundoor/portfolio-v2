@@ -47,9 +47,9 @@ export default function Footer() {
             <p>Reader, writer, gamer, creative, artist and dreamer.</p>
           </div>
           <div className='footer-links'>
-            <a><i class="fab fa-github" aria-hidden="true"></i></a>
-            <a><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            <a><i class="fab fa-discord" aria-hidden="true"></i></a>
+            <a href="https://github.com/Tundoor" target='_blank' ><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/thandolwethu-mbokazi-9bb309287/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://discordapp.com/users/1245762518681649229/" target='_blank'><i class="fab fa-discord" aria-hidden="true"></i></a>
           </div>
          </div>
 
