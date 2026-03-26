@@ -1,0 +1,32 @@
+
+.About-Me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 100px;
+
+}
+
+.about-me-image {
+    height: 500px;
+    width: 500px;
+
+}
+
+.About-me-article {
+    text-align: center;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.About-me-header {
+    font-size: 4rem;
+    font-family: var(--navFooter-font);
+    color: var(--main-font-color);
+    margin-bottom: 20px;
+}
+
+.About-me-paragraph {
+    font-family: var(--subtext);
+    margin-bottom: 20px;
+}
