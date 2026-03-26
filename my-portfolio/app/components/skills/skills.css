@@ -1,0 +1,47 @@
+/* Skills */
+
+.Skillset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.skills-article {
+    text-align: center;
+    margin: 30px 100px
+}
+
+.Skills-title {
+    margin-bottom: 30px;
+    color: var(--main-font-color);
+    font-size: 5rem;
+    font-family: var(--navFooter-font);
+}
+
+.Skills-paragraph {
+    font-size: 1.2rem;
+}
+
+.dif-skills {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    gap: 60px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.skills h3 {
+    text-align: center;
+    font-size: 1rem;
+}
