@@ -1,0 +1,29 @@
+
+.intro {
+    background-color: #DEDAF4;
+    text-align: center;
+}
+
+.intro-title {
+    font-size: 6rem;
+    font-family: var(--intro-font);
+    color: var(--main-font-color);
+}
+
+.intro-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.intro p {
+    font-family: var(--subtext);
+}
+
+.intro svg {
+    display: block;
+    /*So it takes entire width */
+}
+
+.svg-upper {
+    background-color: white;
+}
