@@ -5,11 +5,8 @@ export default function Skills() {
     <>
            <div class="Skillset" id="My-Skills">
             <div class="skills-article">
-                <h1 class="Skills-title">My Skills</h1>
-                <p class="Skills-paragraph">I believe great work comes from a blend of passion and skill. Here’s a
-                    closer
-                    look at the tools and
-                    talents I’ve developed — each one helping me turn ideas into real, meaningful results.</p>
+                <h1 class="Skills-title">Technologies</h1>
+                <p class="Skills-paragraph">I believe great work comes from a blend of passion and skill. Here is a closer look at the tools and technologies I’ve acquired throughout my journey</p>
             </div>
             <div class="dif-skills">
                 <div class="skills">

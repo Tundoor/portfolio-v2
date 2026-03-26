@@ -16,19 +16,26 @@
     margin-left: 50px;
     margin-right: 50px;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--header-font);
     color: var(--secondary-color);
     transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 .name-div {
      margin-left: 50px;
+     font-size: 1.4rem;
+}
+
+.name-div h1 {
+    font-family: var(--signature);
 }
 
 .nav-link:hover {
     color: var(--swirl-color);
     text-decoration: underline;
     font-size: 1.3rem;
+    transform: translateY(-1px);
+    transition: color 0.2s ease, text-decoration 0.2s ease, transform 0.2s ease, font-size 0.2s ease;
 }
 
 

@@ -32,6 +32,9 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+         <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster&family=Style+Script&display=swap" rel="stylesheet"></link>
       </head>
       <body>{children}</body>
     </html>

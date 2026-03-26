@@ -8,20 +8,20 @@
 }
 
 .about-me-image {
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 700px;
 
 }
 
 .About-me-article {
     text-align: center;
-    width: 500px;
+    width: 800px;
     margin-left: 100px;
 }
 
 .About-me-header {
     font-size: 4rem;
-    font-family: var(--navFooter-font);
+    font-family: var(--header-font);
     color: var(--main-font-color);
     margin-bottom: 20px;
 }

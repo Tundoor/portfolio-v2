@@ -9,14 +9,14 @@
 
 .project-header h1 {
     font-size: 4rem;
-    font-family: var(--navFooter-font);
+    font-family: var(--header-font);
     color: var(--main-font-color);
 }
 
 .project-header p {
     font-family: var(--subtext);
     font-size: 1.3rem;
-    color: #DEDAF4;
+    color: #a7a4b8;
 }
 
 .project {
@@ -36,6 +36,10 @@
 }
 .project-info h1 {
    font-size: 2rem;
+}
+
+.project-info p {
+   color: #a7a4b8;
 }
 
 .project-info:hover {

@@ -10,10 +10,12 @@
 
 .in-touch-div h1 {
     font-size: 2rem;
+    font-family: var(--header-font);
 }
 
 .in-touch-div p {
     width: 500px;
+    color: #a7a4b8;
 }
 
 .contact-detail {
@@ -49,12 +51,16 @@
 
 .form-header h1{
     font-size: 2rem;
+    font-family: var(--header-font);
 }
 .contact-form {
     display: flex;
     flex-direction: column;
 }
 
+.form-header p { 
+    color: #a7a4b8;
+}
 .contact-form input {
     border-style: solid;
     border-width: 2px;

@@ -16,7 +16,8 @@
 }
 
 .intro p {
-    font-family: var(--subtext);
+    font-family: var(--header-font);
+    font-size: 1.3rem;
 }
 
 .intro svg {

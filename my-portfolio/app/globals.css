@@ -7,9 +7,9 @@
     --secondary-color: #473c8b;
     --main-font-color: #22224f;
     --intro-font: "Lobster";
-    /*sans serif */
-    --navFooter-font: "Raleway";
-    --subtext: "Playfair Display";
+    --header-font: "Itim", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --signature:  "Style Script", cursive;
+
 
 }
 

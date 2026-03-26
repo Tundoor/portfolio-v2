@@ -10,19 +10,23 @@
 
 .skills-article {
     text-align: center;
-    margin: 30px 100px
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Skills-title {
     margin-bottom: 30px;
     color: var(--main-font-color);
     font-size: 5rem;
-    font-family: var(--navFooter-font);
+    font-family: var(--header-font);
 }
 
 .Skills-paragraph {
     font-size: 1.2rem;
-    color: #DEDAF4;
+    width: 80%;
+    color: #a7a4b8;
 }
 
 .dif-skills {
