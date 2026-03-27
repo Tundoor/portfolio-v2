@@ -42,10 +42,9 @@ export default function Project() {
             <h1>Projects</h1>
             <p>Overview of project I have worked on, or been a part of.</p>
         </div>
-        {projects.map((project) => {
+        {projects.map((project, index) => {
                 return(
-                    <>
-                    <div className='project'>
+                    <div className='project' key={index}>
                         <div className='project-info'>
                             <a href={project.link} target='_blank'>
                             <h1>{project.title}</h1>
@@ -54,9 +53,9 @@ export default function Project() {
                         </div>
                         <div className='project-stack'>
                            {project.techstack.map(
-                             (stack) => {
+                             (stack, index) => {
                                 return(
-                                    <div className='stack-div'>
+                                    <div className='stack-div' key={index}>
                                         <h1>{stack}</h1>
                                     </div>
                                 )
@@ -64,7 +63,6 @@ export default function Project() {
                            )}
                         </div>
                     </div>
-                    </>
                 )
             }
         )}
