@@ -28,6 +28,7 @@
 
 .name-div h1 {
     font-family: var(--signature);
+    font-size: 1.3rem;
 }
 
 .nav-link:hover {
