@@ -8,10 +8,11 @@ import Footer from './components/footer/footer'
 import nodemailer from 'nodemailer'
 
 
-export default function Home() {
-
   const sendMail = async (data: { name: string, email: string, message: string }) => {
     'use server'
+
+    console.log('EMAIL_USER:', process.env.EMAIL_USER);
+    console.log('EMAIL_PASS:', process.env.EMAIL_PASS ? '✓ set' : '✗ undefined');
 
     try {
 
@@ -40,12 +41,15 @@ export default function Home() {
        error: null
      };
     } catch (error) {
+      console.error("Mail error:", error)
        return {
          success: false,
          error: 'Oops! An error occured'
        }
     }
   }
+
+export default function Home() {
   return (
    <>
  <Navbar />
