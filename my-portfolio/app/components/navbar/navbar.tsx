@@ -11,9 +11,11 @@ export default function Navbar() {
             <a href="#About-Me" className="nav-link">About</a>
             <a href="#Projects" className="nav-link">Work</a>
             <a href="#Contact" className="nav-link">Contact</a>
-            <a target="_blank"
-                href="https://docs.google.com/document/d/1HE5MsPX7Q8ikRNckXLktjGSUvHZDW9fFU1usBjt2zUw/edit?usp=sharing"
-                className="nav-link">Resume</a>
+            <a 
+                href="https://docs.google.com/document/d/1HE5MsPX7Q8ikRNckXLktjGSUvHZDW9fFU1usBjt2zUw/export?format=pdf"
+                className="nav-link"
+                download="Thandolwethu-Mbokazi-Resume.pdf"
+              >Resume</a>
            </div>     
         </nav>  
     </div>
