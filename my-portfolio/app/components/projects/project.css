@@ -54,10 +54,16 @@
 .project-stack {
     margin-right: 50px;
     display: flex;
+   
 }
 
 .stack-div {
     background-color: #DEDAF4;
     padding: 10px;
     margin-left: 10px;
+}
+
+.stack-div h1 {
+ font-size: 1rem;
+ color: white;
 }

@@ -30,6 +30,10 @@
     margin-right: 20px;
 }
 
+.contact-detail h1 {
+     font-size: 1.2rem;
+}
+
 /* form div */
 
 .contact-form-div {
@@ -134,5 +138,9 @@
     align-self: flex-end;
     text-align: right;
     width: 100%;
+}
+
+.footer-copyright h1 {
+    font-size: 1rem;
 }
 
