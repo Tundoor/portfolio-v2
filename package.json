@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nextjs-toast-notify": "^1.62.0"
+  }
+}

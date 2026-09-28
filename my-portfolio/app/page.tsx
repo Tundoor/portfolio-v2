@@ -28,7 +28,11 @@ export default function Home() {
         from: data.email,
         to: process.env.MAIL_RECEIVER_ADDRESS,
         subject: `${data.name} is trying to reach out!`,
-        text: data.message,
+        text: `
+        Name: ${data.name}
+        Email: ${data.email}
+        
+        ${data.message}`,
         html: '',
      }
 
@@ -42,7 +46,7 @@ export default function Home() {
     } catch (error) {
        return {
          success: false,
-         error: 'Oops! An error occured'
+         error: 'Oops! An error occured  ' + error
        }
     }
   }

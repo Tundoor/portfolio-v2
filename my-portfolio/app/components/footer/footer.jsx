@@ -4,6 +4,7 @@ import './footer.css'
 import { useForm } from 'react-hook-form'
 import formSchema from '@/app/utils/validation/contact.form.validation'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { showToast } from 'nextjs-toast-notify'
 
 
 export default function Footer({ sendMail }) {
@@ -18,9 +19,9 @@ export default function Footer({ sendMail }) {
      const result = await sendMail(data)
     if (result.success) {
         reset()
-        alert('Message sent!')
+        showToast.success("Message Sent Successfully!")
     } else {
-        alert(result.error)
+        showToast.error(result.error)
     }
   }
 
